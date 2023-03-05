@@ -1,4 +1,4 @@
-import { Logo } from 'decentraland-ui'
+import { Logo } from '../Logo/Logo.tsx'
 import React from 'react'
 import { FormattedMessage, useIntl } from 'react-intl'
 import { Container } from 'semantic-ui-react'

@@ -1,11 +1,8 @@
 import React, { Component } from 'react'
 import './App.css'
 import PropTypes from 'prop-types'
-import Header from '../Header'
 import Dashboard from '../Dashboard'
-import Footer from '../Footer'
 import { isValidAddress } from '../../utils'
-import DaoInitiativeContextProvider from '../../context/DaoInitiativeContext'
 import LandingPage from '../LandingPage/LandingPage'
 import ErrorPage from '../ErrorPage/ErrorPage'
 import LoadingPage from '../LoadingPage/LoadingPage'
@@ -119,11 +116,7 @@ class App extends Component {
     }
     return (
       <div className="app">
-        <DaoInitiativeContextProvider>
-          <Header />
-          <Dashboard />
-          <Footer />
-        </DaoInitiativeContextProvider>
+        <Dashboard />
       </div>
     )
   }

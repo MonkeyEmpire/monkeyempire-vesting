@@ -9,7 +9,6 @@ import {
   useIntl,
 } from 'react-intl'
 import { copyToClipboard, getMonthDiff } from '../../../utils'
-import ManaWidget from '../../ManaWidget'
 import useResponsive from '../../../hooks/useResponsive'
 import Responsive from 'semantic-ui-react/dist/commonjs/addons/Responsive'
 import Copy from '../../../images/copy.svg'
@@ -127,11 +126,6 @@ export default function Overview(props) {
               />
             </Header>
           </Grid.Column>
-          {symbol === 'MANA' && !isMobile && (
-            <Grid.Column floated="right">
-              <ManaWidget />
-            </Grid.Column>
-          )}
         </Grid.Row>
       </Grid>
     </>

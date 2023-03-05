@@ -27,7 +27,7 @@ export default class API {
   getWeb3() {
     if (this.web3 === null) {
       this.web3 = new Web3(
-        new Web3.providers.HttpProvider('https://rpc.decentraland.org/mainnet')
+        new Web3.providers.HttpProvider('https://endpoints.omniatech.io/v1/avax/mainnet/public')
       )
     }
 

@@ -4,7 +4,6 @@ import Progress from './Progress'
 import Details from './Details'
 import { Container, Grid } from 'semantic-ui-react'
 import Overview from './Overview'
-import Beneficiary from './Beneficiary'
 import Schedule from './Schedule'
 import Chart from './Chart'
 import Summary from './Summary'
@@ -19,7 +18,6 @@ function Dashboard() {
   return (
     <Container className="dashboard">
       <Overview />
-      <Beneficiary />
       <Grid stackable columns={2} padded style={{ width: '100%' }}>
         <Grid.Column width={12} style={{ paddingLeft: 0 }}>
           <PendingFunds />
