@@ -2,7 +2,7 @@
 
 # Vesting Dashboard
 
-Decentraland's [Vesting Dashboard](https://vesting.decentraland.org)
+MonkeyEmpire's [Vesting Dashboard](https://vesting.monkeyempire.net)
 
 This web UI works with any MANA, DAI, USDC or USDT Vesting Contract
 
