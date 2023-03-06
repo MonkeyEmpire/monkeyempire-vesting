@@ -1,5 +1,8 @@
 <img src="https://decentraland.org/images/decentraland.png" alt="Logo" width="128"/>
 
+Do this export before : 
+export NODE_OPTIONS=--openssl-legacy-provider
+
 # Vesting Dashboard
 
 MonkeyEmpire's [Vesting Dashboard](https://vesting.monkeyempire.net)
